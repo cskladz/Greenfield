@@ -3,7 +3,7 @@ import { Button, Icon, NavItem, Navbar, Dropdown } from 'react-materialize';
 
 const NavbarComp = ({ clickHome, clickCreateEvent, clickMyEvents, clickLoginForm, clickSignupForm, clickSignout }) => (
   <div>
-    <h2>Navbar</h2>
+    <p>Navbar</p>
     <div>
       <Button waves='light' onClick={clickHome}>Home</Button>
       <Button waves='light' onClick={clickMyEvents}>MyEvents<Icon left>cloud</Icon></Button>
